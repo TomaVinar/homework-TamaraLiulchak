@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    height: 120px;
+    background: dimgray;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.right {
+    width: 20%;
+    height: 740px;
+    background: dimgray;
+}
+
+.left {
+    display: flex;
+    width: 80%;
+    height: 800px;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.a, .b, .c {
+    background: dimgray;
+    height: 360px;
+    flex-grow: 3;
+}
+
+.bottom {
+    display: flex;
+    flex-grow: row;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.d, .e, .f {
+    background: dimgray;
+    height: 360px;
+    flex-grow: 3;
+}

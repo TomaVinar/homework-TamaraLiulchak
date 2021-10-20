@@ -1,0 +1,38 @@
+.top {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    column-gap: 20px;
+}
+
+.item {
+    background: cadetblue;
+}
+
+.home, .about {
+    flex-grow: 5;
+}
+
+.middle {
+    width: 100%;
+    height: 240px;
+    background: cadetblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    height: 360px;
+}
+
+.product {
+    background: cadetblue;
+}
+
+.shishkabobs, .bbq, .summer {
+    flex-grow: 3;
+}
+
