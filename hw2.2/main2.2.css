@@ -1,0 +1,23 @@
+.widgets {
+    height: 200px;
+    background: dimgray;
+}
+
+ .bigger {
+     display: flex;
+     justify-content: space-around;
+     height: 240px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ .item {
+     background: crimson;
+     height: 200px;
+     width: 320px;
+ }
+
+ .contact {
+     height: 240px;
+     background: blue;
+ }

@@ -1,0 +1,45 @@
+html {
+    height: 1600px;
+}
+
+
+.header {
+    background: darkolivegreen;
+    height: 120px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    background: mediumorchid;
+    height: 160px;
+    margin-top: 16px;
+}
+
+.menu {
+    background: gold;
+    width: 320px;
+    height: 440px;
+    margin-right: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.items {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.post {
+    background: aquamarine;
+    width: 800px;
+    height: 200px;
+}
+
+.a {
+    margin-bottom: 40px;
+}
