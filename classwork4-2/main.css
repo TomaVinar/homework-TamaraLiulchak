@@ -1,0 +1,100 @@
+.page {
+    height: auto;
+}
+
+.header {
+    height: 40px;
+    background: cornflowerblue;
+}
+
+.menu {
+    background: #bab8e3;
+    height: 80px;
+}
+
+.w100 {
+ width: 100%;
+}
+
+.topsection {
+    height: 360px;
+    background: cornflowerblue;
+}
+
+.benefits {
+    padding: 80px 0 80px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #bab8e3;
+}
+
+.cl {
+    background: #140e4d;
+}
+
+.bg {
+    background: #bab8e3;
+}
+
+.a, .b, .c, .d, .x, .y, .z {
+    width: 160px;
+    height: 160px;
+}
+
+.radius {
+    border-radius: 8px;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 0 80px 0;
+    background: #140e4d;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 80px 0 80px 0;
+}
+
+.top, .bottom {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    height: 440px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.one, .two, .three, .four, .five, .six {
+    flex-grow: 3;
+    padding: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    padding: 120px 40px 120px 40px;
+    box-sizing: border-box;
+}
+
+.first, .second {
+    flex-grow: 5;
+    height: 320px;
+}
+
+.footer {
+    margin-top: 120px;
+    height: 120px;
+}
