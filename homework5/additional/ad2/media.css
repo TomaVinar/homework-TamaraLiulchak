@@ -1,0 +1,137 @@
+@media screen and (max-width: 560px) {
+
+    .navigation {
+        height: 40px;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .section {
+        height: 280px;
+        align-items: center;
+    }
+
+    .title {
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .b {
+        width: 100px;
+        margin: 20px 0 0 0;
+    }
+
+    .content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .content_vertical {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .x {
+        width: 200px;
+        height: 100px;
+
+    }
+
+    .y, .z {
+        display: none;
+    }
+
+    .horizontal {
+        padding-top: 20px;
+        margin-left: 0;
+        column-gap: 8px;
+        align-items: center;
+    }
+
+    .prev5, .prev6 {
+        display: none;
+    }
+
+    .block_content {
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .group {
+        row-gap: 8px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description {
+        font-size: 14px;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .photo {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        flex-grow: 1;
+        margin-right: 0;
+    }
+
+    .headline {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .top, .bottom {
+        padding: 0 0 8px 0;
+        column-gap: 8px;
+        align-items: center;
+    }
+
+    .big, .bigger {
+        height: 120px;
+        border-radius: 8px;
+    }
+
+    .small, .smaller {
+        height: 120px;
+        border-radius: 8px;
+    }
+
+    .review {
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+    .product {
+        height: 120px;
+        width: 120px;
+    }
+
+    .about {
+        font-size: 14px;
+        width: 80%;
+        padding: 8px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+    }
+
+}
+
+@media (orientation: landscape) {
+
+}

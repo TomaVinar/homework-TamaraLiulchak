@@ -1,0 +1,25 @@
+.widgets {
+    height: 200px;
+}
+
+.bigger {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.item {
+    height: 200px;
+    width: 340px;
+}
+
+.contact {
+    height: 240px;
+}
+
+.bg {
+    background: darkslateblue;
+}

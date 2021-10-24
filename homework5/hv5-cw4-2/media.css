@@ -1,0 +1,58 @@
+@media screen and (max-width: 560px) {
+
+    .topsection {
+        height: 280px;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .step1, .step2 {
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        padding-bottom: 20px;
+    }
+
+    .a, .b, .c, .d {
+        width: 80px;
+        height: 80px;
+    }
+
+    .block {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+        padding: 40px 0 40px 0;
+    }
+
+    .product {
+        width: 120px;
+        height: 120px;
+    }
+
+    .cards {
+        flex-direction: row;
+        padding: 40px 0 40px 0 ;
+    }
+
+    .top, .bottom {
+        padding: 0;
+        column-gap: 16px;
+        align-items: center;
+    }
+
+    .post {
+        width: 160px;
+        height: 220px;
+    }
+
+    .footer {
+        height: 80px;
+        padding: 0;
+    }
+
+}
