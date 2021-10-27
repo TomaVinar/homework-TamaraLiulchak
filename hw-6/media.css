@@ -1,0 +1,89 @@
+@media screen and (max-width: 460px) {
+
+    .header_menu_left, .header_contact {
+         display: none;
+    }
+
+    .wrapper {
+        max-width: 400px;
+    }
+
+    .header {
+        width: 100%;
+        background: url("images/HERO IMG.png");
+        position: relative;
+
+    }
+
+    .header_btn {
+        display: none;
+    }
+
+    .header_menu {
+        max-width: 320px;
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+    .header_menu img {
+        width: 45px;
+    }
+
+    .button_mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 4px;
+        width: 30px;
+    }
+
+    .button_mobile div {
+        width: 3px;
+        color: #FF7400;
+    }
+
+    .hero_section {
+        width: 100%;
+    }
+
+    .hero_section h2 {
+        font-size: 20px;
+        color: #D67E35;
+        text-align: center;
+    }
+
+    .hero_section h1 {
+        font-size: 24px;
+        color: #D67E35;
+    }
+
+    .hero_section p {
+        font-weight: normal;
+        font-size: 14px;
+        color: white;
+        width: 150px;
+    }
+
+    .hero_section span {
+        width: 20px;
+    }
+
+    .titles {
+        padding-top: 50px;
+        padding-left: 0 ;
+        row-gap: 16px;
+    }
+
+    .section_cards {
+        flex-direction: column;
+        row-gap: 20px;
+        position: relative;
+    }
+
+    .card {
+        width: 240px;
+        height: 240px;
+    }
+
+
+}
