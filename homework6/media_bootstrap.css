@@ -1,0 +1,59 @@
+@media (min-width: 320px) and (max-width: 567px) and (orientation: landscape) {
+
+    .whole_page {
+        max-width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .nav_menu, .menu-contact,
+    .header_btn {
+        display: none;
+    }
+
+    .header_menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main_section {
+        width: 100%;
+        justify-content: center;
+        padding-top: 240px;
+    }
+
+    .titles h2 {
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+    .titles h1 {
+        font-weight: normal;
+        font-size: 28px;
+    }
+
+    .titles span {
+        display: none;
+    }
+
+    .section_cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}
