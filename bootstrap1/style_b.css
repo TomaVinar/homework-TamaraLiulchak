@@ -1,0 +1,193 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: url("images/bg.png") no-repeat center/cover;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 120px 0 120px;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.nav-link img {
+    width: 16px;
+    height: 16px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.phone p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.cta {
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 150px;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    background: #f57a44;
+    border-color: #f57a44;
+}
+
+.hero_section {
+    height: 300px;
+}
+
+.hero_section .container {
+    margin-top: 120px;
+    row-gap: 20px;
+}
+
+.hero_section h2 {
+    font-size: 36px;
+    color: #D67E35;
+}
+
+.hero_section h1 {
+    font-size: 48px;
+    color: #D67E35;
+}
+
+.hero_section_description {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.container span {
+    width: 40px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.hero_style {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.hero_section_description {
+    margin-bottom: 0;
+}
+
+.cards_container {
+    position: absolute;
+    bottom: -180px;
+
+}
+
+.card {
+    width: 240px;
+    height: 240px;
+    border-radius: 0;
+    padding-top: 40px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 44px;
+    height: 44px;
+}
+
+.accent {
+    color: #BC9060;
+}
+
+.card_description {
+    font-size: 16px;
+    text-align: center;
+    color: #656363;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.content {
+    padding-top: 260px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.content_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.numbers_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.content_left h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+    width: 80%;
+}
+
+.content_description {
+    width: 80%;
+    text-align: center;
+}
+
+.number {
+    font-size: 28px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.title {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.content_right {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.content_right img {
+    width: 500px;
+}

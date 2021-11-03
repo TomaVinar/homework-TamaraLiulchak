@@ -1,0 +1,117 @@
+@media (max-width: 576px) {
+
+    .container {
+        margin-left: 16px;
+    }
+    .container img {
+        width: 40px;
+        height: 30px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .contact_menu {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .btn-primary {
+        display: none;
+    }
+
+    .contact_menu .cta {
+        display: none;
+    }
+
+    .hero_section {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero_section h2 {
+        font-size: 28px;
+    }
+
+    .hero_section h1 {
+        font-size: 36px;
+    }
+
+    .hero_section_description {
+        font-size: 14px;
+    }
+
+    .hero_style {
+        justify-content: center;
+    }
+
+    .hero_style span {
+        display: none;
+    }
+
+    .cards_container {
+        bottom: -680px;
+        row-gap: 20px;
+    }
+
+    .card h2 {
+        font-size: 16px;
+    }
+
+    .card_description {
+        font-size: 14px;
+    }
+
+    .content {
+        width: 100%;
+        padding-top: 760px;
+        flex-direction: column;
+    }
+
+    .content_left {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content_left h2 {
+        font-size: 28px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content_description {
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 16px;
+    }
+
+    .numbers_info {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .content_right {
+        width: 100%;
+        padding-right: 0;
+        margin-left: 16px;
+    }
+
+    .content_right img {
+        align-content: center;
+        padding-top: 20px;
+        width: 90%;
+    }
+
+
+
+
+
+}
