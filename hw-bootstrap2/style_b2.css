@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.nav_menu {
+    justify-content: flex-end;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.menu_button {
+    display: none;
+}
+
+.navbar {
+    padding-bottom: 0;
+}
+
+.nav-item a {
+    border: 2px solid transparent;
+}
+
+.nav-item a:focus,
+.nav-item a:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.first-section {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.left-content h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #1652AC;
+    line-height: 64px;
+}
+
+.left-content p {
+    width: 80%;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    color: #020303;
+    padding-top: 100px;
+}
+
+.content span {
+    height: 6px;
+    width: 220px;
+    background: #EDEFF3;
+}
+
+.first {
+    margin-top: 60px;
+}
+
+.second {
+    margin-top: 60px;
+}
+
+.content_image img {
+    width: 90%;
+}
+
+.content_image_small {
+    display: none;
+}
+
+.second_section {
+    width: 100%;
+    margin-top: 100px ;
+}
+
+.second_section_image {
+    display: flex;
+    justify-content: center;
+}
+
+.second_section_image img {
+    width: 80%;
+}
+
+.second_section_content {
+    padding-right: 60px;
+}
+
+.second_section_content h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #1652AC;
+}
+
+.second_section_description {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    padding-bottom: 40px;
+}
+
+.accent {
+    font-weight: bold;
+    color: #020303;
+}
+
+.second_section_content p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.third_section {
+    margin-top: 80px;
+    background-color:#163DA1;
+    height: 500px;
+}
+.third_section_content {
+    width: 500px;
+    margin-right: 140px;
+
+}
+
+.third_section_content h2 {
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    color: #FBFDFF;
+}
+
+.third_section_description {
+    color: #FBFDFF;
+    padding-top: 32px;
+}
